@@ -76,7 +76,7 @@ export default function Index() {
               value={item}
               />
             <button
-              className="mt-1 rounded-md bg-blue-300 bg-opacity-20 px-4 py-2 text-sm font-medium text-blue-500 hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-opacity-75 transition flex items-center justify-center"
+              className="mt-1 rounded-md bg-blue-300 bg-opacity-20 px-4 py-2 text-sm font-medium text-blue-800 hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-800 focus-visible:ring-opacity-75 transition flex items-center justify-center"
               onClick={add}
               disabled={loading}
               >
@@ -99,7 +99,7 @@ export default function Index() {
                 <td>{item.description}</td>
                 <td>{moment().format("DD MMM, YYYY")}</td>
                 <td>
-                  <button className="rounded-md bg-red-300 bg-opacity-20 px-4 py-2 text-sm font-medium text-red-500 hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-red-500 focus-visible:ring-opacity-75 transition" onClick={(e) => remove(e, item.id)}><MdDelete /></button>
+                  <button className="rounded-md bg-red-300 bg-opacity-20 px-4 py-2 text-sm font-medium text-red-800 hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-red-800 focus-visible:ring-opacity-75 transition" onClick={(e) => remove(e, item.id)}><MdDelete /></button>
                 </td>
               </tr>)}
             </tbody>
